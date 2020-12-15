@@ -22,7 +22,6 @@ class TweetsController < ApplicationController
   end
 
   def edit
-    jijijijiji
   end
 
   def update
@@ -31,7 +30,6 @@ class TweetsController < ApplicationController
   end
 
   def show
-    mama
     @comment = Comment.new
     @comments = @tweet.comments.includes(:user)
   end
