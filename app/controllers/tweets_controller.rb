@@ -27,6 +27,7 @@ class TweetsController < ApplicationController
   def update
     tweet = Tweet.find(params[:id])
     tweet.update(tweet_params)
+    papa
   end
 
   def show
