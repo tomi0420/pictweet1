@@ -22,6 +22,7 @@ class TweetsController < ApplicationController
   end
 
   def edit
+    jijijijiji
   end
 
   def update
